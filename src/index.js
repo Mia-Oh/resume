@@ -8,8 +8,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path='/resume/about' element={<App />} />
-      </Routes>
+      <Route path='/resume/index.html' element={<App />} />
+    </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

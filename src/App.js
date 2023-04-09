@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 #root {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 section {
   margin: 30px;

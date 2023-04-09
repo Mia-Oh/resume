@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 const SContent = styled.div`
-  border:1px solid black;
+  /* border:1px solid black; */
   display:flex;
 `;
 
 const SPeriodSection = styled.div`
-  border:1px solid black;
+  /* border:1px solid black; */
   
 `;
 
 const SProjectInfoSection = styled.div`
-  border:1px solid black;
+  /* border:1px solid black; */
   
 `;
 
