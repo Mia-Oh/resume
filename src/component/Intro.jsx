@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const SIntroLayout = styled.section`
   display: flex;
   justify-content: space-between;
-  width: 100%;
 `;
 
 const STitle = styled.div`
