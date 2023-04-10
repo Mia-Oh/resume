@@ -1,48 +1,4 @@
-import styled from 'styled-components';
-
-const SIntroLayout = styled.section`
-  display: flex;
-  justify-content: space-between;
-`;
-
-const STitleSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 66%;
-`;
-
-const SNameTitle = styled.h1`
-  font-size: 2.5rem;
-`;
-
-const SSubTitle = styled.div`
-  width: 33%;
-`;
-
-const SIconList = styled.ul`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  a {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  i {
-  font-size: 30px;
-  line-height: 60px;
-  }
-`;
-
-const STextList = styled.ul`
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-end;
-`;
+import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList } from "../style/style";
 
 const Intro = () => {
   return (
@@ -51,7 +7,7 @@ const Intro = () => {
         <SNameTitle>오송아</SNameTitle> 
         <p>Junior Frontend Developer</p>
       </STitleSection>
-      <SSubTitle>
+      <SSubTitleSection>
         <SIconList>
           <li>
             <a target="_blank" href="https://github.com/Mia-Oh" rel="noreferrer">
@@ -77,11 +33,11 @@ const Intro = () => {
           <STextList>
             <li>
               Email : 
-              <a href="songmiaoh@gmail.com" target="_blank">songmiaoh@gmail.com</a>
+              <a href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer">songmiaoh@gmail.com</a>
             </li>
             <li>Last updated : 2023.04.08</li>
           </STextList>
-      </SSubTitle>
+      </SSubTitleSection>
     </SIntroLayout>
   );
 }

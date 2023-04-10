@@ -8,28 +8,28 @@ const Education = () => {
       <SSubtitle>Education</SSubtitle>
       <SContent>
         <SPeriodSection>
+          <h3>한양여자대학교</h3>
           <span>2014.03 - 2017.02</span>
         </SPeriodSection>
         <SEducationInfoSection>
-          <h3>한양여자대학교</h3>
-          <span>스마트 IT과 (구, 정보경영과)</span>
+          <span>스마트 IT과 (구) 정보경영과</span>
         </SEducationInfoSection>
       </SContent>
       <SContent>
         <SPeriodSection>
+          <h3>국가평생교육진흥원</h3>
           <span>2022.03 - 2023.02</span>
         </SPeriodSection>
         <SEducationInfoSection>
-          <h3>국가평생교육진흥원</h3>
           <span>경영학 학사 </span>
         </SEducationInfoSection>
       </SContent>      
       <SContent>
         <SPeriodSection>
+          <h3>코드스테이츠(Code States)<br /> 소프트웨어 개발자 과정 </h3>
           <span>2022.10 - 2023.04</span>
         </SPeriodSection>
         <SEducationInfoSection>
-          <h3>코드스테이츠(Code States) 소프트웨어 개발자 과정 </h3>
           <span>배운 내용을 스스로 요약해서 써보거나(추천), 코드스테이츠 커리큘럼 링크를 걸어두세요! </span>
           <ul>
             <li>20주 동안 매일 알고리즘 문제 풀이</li>
