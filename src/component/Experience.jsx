@@ -1,21 +1,10 @@
-import styled from "styled-components";
+import { SSubtitle,SContent,SPeriodSection,SExperienceInfoSection } from "../style/style";
 
-const SContent = styled.div`
-  display:flex;
-`;
-
-const SPeriodSection = styled.div`
-  
-`;
-
-const SExperienceInfoSection = styled.div`
-  
-`;
 
 const Experience = () => {
   return (
     <section>
-      <h2>Experience</h2>
+      <SSubtitle>Experience</SSubtitle>
       <SContent>
         <SPeriodSection>
           <span>2020.09 - 2022.06</span>

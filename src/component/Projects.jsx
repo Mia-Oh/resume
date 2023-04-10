@@ -1,24 +1,11 @@
-import styled from "styled-components";
+import { SSubtitle, SContent,SPeriodSection,SProjectInfoSection } from "../style/style";
 
-const SContent = styled.div`
-  /* border:1px solid black; */
-  display:flex;
-`;
 
-const SPeriodSection = styled.div`
-  /* border:1px solid black; */
-  
-`;
-
-const SProjectInfoSection = styled.div`
-  /* border:1px solid black; */
-  
-`;
 
 const Projects = () => {
   return (
     <section>
-      <h2>Projects</h2>
+      <SSubtitle>Projects</SSubtitle>
       <SContent>
         <SPeriodSection>
           <span>2023.02 - 2023.03</span>

@@ -1,28 +1,18 @@
-import styled from "styled-components";
+import { SSubtitle, SContent,SPeriodSection,SEducationInfoSection } from "../style/style";
 
-const SContent = styled.div`
-  display:flex;
-`;
 
-const SPeriodSection = styled.div`
-  
-`;
-
-const SEducationInfoSection = styled.div`
-  
-`;
 
 const Education = () => {
   return (
     <section>
-      <h2>Education</h2>
+      <SSubtitle>Education</SSubtitle>
       <SContent>
         <SPeriodSection>
           <span>2014.03 - 2017.02</span>
         </SPeriodSection>
         <SEducationInfoSection>
           <h3>한양여자대학교</h3>
-          <span>스마트 IT과 (구, 정보경영과) 전문학사 </span>
+          <span>스마트 IT과 (구, 정보경영과)</span>
         </SEducationInfoSection>
       </SContent>
       <SContent>

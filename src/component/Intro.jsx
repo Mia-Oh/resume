@@ -5,11 +5,15 @@ const SIntroLayout = styled.section`
   justify-content: space-between;
 `;
 
-const STitle = styled.div`
+const STitleSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 66%;
+`;
+
+const SNameTitle = styled.h1`
+  font-size: 2.5rem;
 `;
 
 const SSubTitle = styled.div`
@@ -43,10 +47,10 @@ const STextList = styled.ul`
 const Intro = () => {
   return (
     <SIntroLayout>
-      <STitle>
-        <h1>오송아</h1> 
+      <STitleSection>
+        <SNameTitle>오송아</SNameTitle> 
         <p>Junior Frontend Developer</p>
-      </STitle>
+      </STitleSection>
       <SSubTitle>
         <SIconList>
           <li>
