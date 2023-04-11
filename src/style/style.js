@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, keyframes } from "styled-components";
 import styled from 'styled-components';
 
 //* App.js
@@ -76,6 +76,8 @@ export const SIconList = styled.ul`
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
+  margin: 0 0 1rem 0;
+
   a {
     width: 60px;
     height: 60px;
@@ -83,10 +85,57 @@ export const SIconList = styled.ul`
     justify-content: center;
     align-items: center;
   }
-  i {
+`;
+
+const sizeUp = keyframes`
+  from {
+    background-color:  #fff;
+  }
+  to {
+    background-color:  rgb(15, 229, 67);
+  }
+`;
+
+export const SIconItem = styled.li`
+  border: 1px solid rgb(0 0 0 / 5%);
+  border-radius: 50px;
+  margin-right: 5px;
+  box-shadow: rgb(230 230 230) 3px 2px;
+  position: relative;
+  :last-child {
+    margin-right: 0;
+  };
+  a {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+  }
+  a::before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    z-index: -1;
+    background-color: #fff;
+  }
+  :hover {
+    border: 1px solid rgb(0 0 0 / 0%);
+    border-radius: 50px;
+    background-color:  rgb(15, 229, 67);
+    animation : ${sizeUp} 0.25s ease-in-out forwards;
+    i {
+      color: #fff;
+    }
+  }
+`;
+
+
+export const SIconSvg = styled.i`
   font-size: 30px;
   line-height: 60px;
-  }
 `;
 
 export const STextList = styled.ul`
@@ -98,6 +147,10 @@ export const STextList = styled.ul`
     list-style: none;
     padding: 5px 0;
   }
+`;
+
+export const SAboutMeP = styled.p`
+  line-height: 2rem;
 `;
 
 
@@ -123,6 +176,8 @@ export const SStackItem = styled.span`
   border: 1px solid #07ba9c;
   padding: 5px 15px;
   border-radius: 20px;
+  box-shadow: rgb(230 230 230) 3px 2px;
+  font-weight: 500;  
 `;
 
 
@@ -138,7 +193,7 @@ export const SPeriodSection = styled.div`
   /* border:1px solid black; */
   width: 45%;
   h3 {
-    font-size:1.25rem;
+    font-size:1.35rem;
     padding-bottom: 1rem;
   }
 `;
@@ -147,9 +202,27 @@ export const SPeriodSection = styled.div`
 export const SProjectInfoSection = styled.div`
   /* border:1px solid black; */
    width: 65%;
-   span {
-    font-size: 1rem;
+   ul {
+    margin: 0.5rem 0 0 1rem;
+    line-height: 2.2rem;
    }
+`;
+
+export const SProjectDescription = styled.p`
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+`;
+
+export const SProjectTag = styled.span`
+  display: inline-flex;
+  align-items: center;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  background-color: rgb(15 229 67 / 15%);
+  box-shadow: rgb(230 230 230) 3px 2px;  
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: 500;
 `;
 
 export const SProjectList = styled.li`
@@ -157,7 +230,20 @@ export const SProjectList = styled.li`
 
 export const SEducationInfoSection = styled.div`
    width: 65%;
+    ul {
+    margin: 0.5rem 0 0 1rem;
+    line-height: 2.2rem;
+   }
 `;
+
+export const SEducationDescription = styled(SProjectDescription)`
+  font-weight: 500;
+`;
+
+export const SExperienceDescription = styled(SProjectDescription)`
+  font-weight: 500;
+`;
+
 
 export const SExperienceInfoSection = styled.div`
   width: 65%;

@@ -1,4 +1,4 @@
-import { SSubtitle,SContent,SPeriodSection,SExperienceInfoSection } from "../style/style";
+import { SSubtitle,SContent,SPeriodSection,SExperienceInfoSection, SExperienceDescription } from "../style/style";
 
 
 const Experience = () => {
@@ -11,7 +11,7 @@ const Experience = () => {
           <span>2020.09 - 2022.06</span>
         </SPeriodSection>
         <SExperienceInfoSection>
-          <span>Revenu / 주임</span>
+          <SExperienceDescription>Revenue / 주임</SExperienceDescription>
         </SExperienceInfoSection>
       </SContent>
       <SContent>
@@ -20,7 +20,7 @@ const Experience = () => {
           <span>2018.08 - 2020.02</span>
         </SPeriodSection>
         <SExperienceInfoSection>
-          <span>Front Desk / GSO</span>
+          <SExperienceDescription>Front Desk / GSO</SExperienceDescription>
         </SExperienceInfoSection>
       </SContent>
       <SContent>
@@ -29,7 +29,7 @@ const Experience = () => {
           <span>2016.07 - 2017.10</span>
         </SPeriodSection>
         <SExperienceInfoSection>
-          <span>사원</span>
+          <SExperienceDescription>식음서비스 / 사원</SExperienceDescription>
         </SExperienceInfoSection>
       </SContent>
     </section>

@@ -1,4 +1,4 @@
-import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList } from "../style/style";
+import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList, SIconItem, SIconSvg } from "../style/style";
 
 const Intro = () => {
   return (
@@ -9,31 +9,31 @@ const Intro = () => {
       </STitleSection>
       <SSubTitleSection>
         <SIconList>
-          <li>
+          <SIconItem>
             <a target="_blank" href="https://github.com/Mia-Oh" rel="noreferrer">
-              <i className="fab fa-github" title="Github link"></i>
+              <SIconSvg className="fab fa-github" title="Github link"></SIconSvg>
             </a>
-          </li>
-          <li>
+          </SIconItem>
+          <SIconItem>
             <a target="_blank" href="https://www.instagram.com/mia_day_6/" rel="noreferrer">
-              <i className="fab fa-instagram" title="Instagram link"></i>
+              <SIconSvg className="fab fa-instagram" title="Instagram link"></SIconSvg>
             </a>
-          </li>
-          <li>
+          </SIconItem>
+          <SIconItem>
             <a target="_blank" href="https://www.youtube.com/channel/UCUuepOw2r05kCFpZNCKpW6g" rel="noreferrer">
-              <i className="fab fa-youtube" title="Youtube link"></i>
+              <SIconSvg className="fab fa-youtube" title="Youtube link"></SIconSvg>
             </a>
-          </li>
-          <li>
+          </SIconItem>
+          <SIconItem>
             <a target="_blank" href="https://mia-mia.tistory.com/" rel="noreferrer">
-              <i className="fas fa-globe" title="Blog link"></i>
+              <SIconSvg className="fas fa-globe" title="Blog link"></SIconSvg>
             </a>
-          </li>
+          </SIconItem>
           </SIconList>
           <STextList>
             <li>
               Email : 
-              <a href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer">songmiaoh@gmail.com</a>
+              <a href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer"> songmiaoh@gmail.com</a>
             </li>
             <li>Last updated : 2023.04.08</li>
           </STextList>
