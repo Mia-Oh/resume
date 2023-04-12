@@ -31,6 +31,16 @@ section {
 li {
   font-size: 1.1rem;
 }
+main {
+  overflow: hidden;
+}
+@media only screen and (max-width: 735px) {
+  #root {
+    display: flex;
+    justify-content: normal;
+    width: 100vw;
+  }
+}
 `;
 
 export const SLayout = styled.main`
@@ -38,6 +48,9 @@ export const SLayout = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media only screen and (max-width: 735px) {
+    width: 100vw;
+  }
 `;
 
 
@@ -55,6 +68,10 @@ export const SSubtitle = styled.h2`
 export const SIntroLayout = styled.section`
   display: flex;
   justify-content: space-between;
+  @media only screen and (max-width: 735px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const STitleSection = styled.div`
@@ -62,6 +79,9 @@ export const STitleSection = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 66%;
+  @media only screen and (max-width: 735px) {
+    align-items: center;
+  }
 `;
 
 export const SNameTitle = styled.h1`
@@ -71,6 +91,13 @@ export const SNameTitle = styled.h1`
 
 export const SSubTitleSection = styled.div`
   width: 33%;
+  @media only screen and (max-width: 735px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 0 0;
+  }
 `;
 
 export const SIconList = styled.ul`
@@ -79,13 +106,20 @@ export const SIconList = styled.ul`
   justify-content: flex-end;
   list-style: none;
   margin: 0 0 1rem 0;
-
   a {
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media only screen and (max-width: 735px) {
+    width: 100%;
+    justify-content: center;
+    a {
+      width: 3rem;
+      height: 3rem;
+    }
   }
 `;
 
@@ -149,6 +183,9 @@ export const STextList = styled.ul`
     list-style: none;
     padding: 5px 0;
   }
+  @media only screen and (max-width: 735px) {
+    align-items: center;
+  }
 `;
 
 export const SAboutMeP = styled.p`
@@ -162,12 +199,19 @@ export const SAboutMeP = styled.p`
 export const SStackList = styled.li`
   padding: 0.5rem 0;
   list-style: none;
+  @media only screen and (max-width: 735px) {
+    margin: 0 0 1.5rem 0;
+  }
 `;
 
 export const SStackCategory = styled.span`
   padding-right: 1.5rem;
   font-size: 1.2rem;
   font-weight: 600;
+  @media only screen and (max-width: 735px) {
+    display: block;
+    margin: 0 0 0.5rem 0;
+  }
 `;
 
 export const SStackItem = styled.span`
@@ -180,6 +224,9 @@ export const SStackItem = styled.span`
   border-radius: 20px;
   box-shadow: rgb(230 230 230) 3px 2px;
   font-weight: 500;  
+  @media only screen and (max-width: 735px) {
+    margin: 0.5rem 0.5rem 0.5rem 0px;
+  }
 `;
 
 
@@ -188,6 +235,9 @@ export const SStackItem = styled.span`
 export const SContent = styled.div`
   display:flex;
   padding-bottom: 4rem;
+  @media only screen and (max-width: 735px) {
+    flex-direction: column;
+  }
 `;
 
 export const SContentColumn = styled.div`
@@ -202,13 +252,17 @@ export const SPeriodSection = styled.div`
     font-size:1.35rem;
     padding-bottom: 1rem;
   }
+  @media only screen and (max-width: 735px) {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
 `;
 
 export const SAnchorColor = styled.a`
   color : blue;
   padding: 0 0.3rem 0 0;
   :hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 `;
 
@@ -216,13 +270,17 @@ export const SAnchor = styled.a`
   color : blue;
   padding: 0 0.3rem;
   :hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 `;
 
 
 export const SParagraph = styled.p`
   padding-bottom: 0.5rem;
+  @media only screen and (max-width: 735px) {
+    padding: 0;
+    line-height: 2rem;
+  }
 `;
 
 //* Project.jsx
@@ -233,6 +291,9 @@ export const SProjectInfoSection = styled.div`
     margin: 0.5rem 0 0 1rem;
     line-height: 2.2rem;
    }
+   @media only screen and (max-width: 735px) {
+    width: 100%;
+  }
 `;
 
 export const SProjectDescription = styled.p`
@@ -242,7 +303,6 @@ export const SProjectDescription = styled.p`
 `;
 
 export const SProjectLinkSection = styled.div`
-  /* border: 1px solid; */
   display: flex;
   align-items: center;
   margin: 1rem 0 0.5rem 0;
@@ -251,6 +311,13 @@ export const SProjectLinkSection = styled.div`
     color : blue;
     :hover {
       text-decoration: underline;
+    }
+  }
+  @media only screen and (max-width: 735px) {
+    width: 100vw;
+    margin: 1rem 0;
+    a {
+      padding: 0px 2px;
     }
   }
 `;
@@ -277,6 +344,9 @@ export const SEducationInfoSection = styled.div`
     margin: 0.5rem 0 0 1rem;
     line-height: 2.2rem;
    }
+   @media only screen and (max-width: 735px) {
+    width: 100%;
+  }
 `;
 
 export const SEduLinkSection = styled.div`
@@ -294,6 +364,10 @@ export const SEduLinkSection = styled.div`
 
 export const SEducationDescription = styled(SProjectDescription)`
   font-weight: 500;
+  @media only screen and (max-width: 735px) {
+    width: 100vw;
+    letter-spacing: -1px;
+  }
 `;
 
 export const SExperienceDescription = styled(SProjectDescription)`
@@ -303,6 +377,8 @@ export const SExperienceDescription = styled(SProjectDescription)`
 
 export const SExperienceInfoSection = styled.div`
   width: 65%;
+  @media only screen and (max-width: 735px) {
+  }
 `;
 
 export const SOtherHeading = styled.h3`
