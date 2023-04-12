@@ -27,6 +27,9 @@ section {
 ::selection {
   background: rgba(15, 229, 67, 0.5);
 }
+li {
+  font-size: 1.1rem;
+}
 `;
 
 export const SLayout = styled.main`

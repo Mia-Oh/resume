@@ -37,7 +37,7 @@ const Education = () => {
             <a href="https://www.codestates.com/course/frontend-engineering#curriculum" target="_blank" rel="noreferrer">공식 커리큘럼</a>
           </SEduLinkSection>
           <ul>  
-            <li>변수, Scope, 고차함수, 비동기 등 JavaScript 기초 개념 습득</li>
+            <li>Scope, 고차함수, 비동기 등 JavaScript 기초 개념 습득</li>
             <li>SPA, State, Props 등 React 기초 개념 습득</li>
             <li>20주 매일 과제 수행 및 페어 프로그래밍, 코드 리뷰 경험</li>
             <li>json-server를 통한 REST API 서버 구축 및 LocalStoreage를 활용한
