@@ -8,7 +8,8 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Pretendard,-apple-system,BlinkMacSystemFont,Bazier Square,Noto Sans KR,Segoe UI,Apple SD Gothic Neo,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;  color: hsla(0,0%,0%,0.8);
+  font-family:"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;  
+  color: hsla(0,0%,0%,0.8);
   text-decoration: none;
 }
 #root {
@@ -144,6 +145,7 @@ export const STextList = styled.ul`
   flex-direction: column;
   align-items: flex-end;
   li {
+    font-size: 1rem;
     list-style: none;
     padding: 5px 0;
   }

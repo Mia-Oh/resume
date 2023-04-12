@@ -1,4 +1,4 @@
-import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList, SIconItem, SIconSvg, SAnchorColor } from "../style/style";
+import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList, SIconItem, SIconSvg, SAnchor } from "../style/style";
 
 const Intro = () => {
   return (
@@ -16,7 +16,7 @@ const Intro = () => {
           </SIconItem>
           <SIconItem>
             <a target="_blank" href="https://www.instagram.com/mia_day_6/" rel="noreferrer">
-              <SIconSvg className="fab fa-instagram" title="Instagram link"></SIconSvg>
+              <SIconSvg className="fab fa-instagram" title="Instagram link"></SIconSvg> 
             </a>
           </SIconItem>
           <SIconItem>
@@ -33,7 +33,7 @@ const Intro = () => {
           <STextList>
             <li>
               Email : 
-              <SAnchorColor href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer">songmiaoh@gmail.com</SAnchorColor>
+              <SAnchor href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer">songmiaoh@gmail.com</SAnchor>
             </li>
             <li>Last updated : 2023.04.08</li>
           </STextList>
