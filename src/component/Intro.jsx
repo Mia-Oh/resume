@@ -5,7 +5,7 @@ const Intro = () => {
     <SIntroLayout>
       <STitleSection>
         <SNameTitle>오송아</SNameTitle> 
-        <p>Junior Frontend Developer</p>
+        <p>Frontend Developer</p>
       </STitleSection>
       <SSubTitleSection>
         <SIconList>
