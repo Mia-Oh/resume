@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
   margin: 0;
   font-family: Pretendard,-apple-system,BlinkMacSystemFont,Bazier Square,Noto Sans KR,Segoe UI,Apple SD Gothic Neo,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;  color: hsla(0,0%,0%,0.8);
   text-decoration: none;
-  /* list-style: none; */
 }
 #root {
   display: flex;
@@ -31,7 +30,6 @@ section {
 `;
 
 export const SLayout = styled.main`
-  /* border: 1px solid black; */
   width: 50rem;
   display: flex;
   flex-direction: column;
@@ -132,7 +130,6 @@ export const SIconItem = styled.li`
   }
 `;
 
-
 export const SIconSvg = styled.i`
   font-size: 30px;
   line-height: 60px;
@@ -154,11 +151,10 @@ export const SAboutMeP = styled.p`
 `;
 
 
-
 //* Stacks.jsx
 
 export const SStackList = styled.li`
-  padding: 5px 0;
+  padding: 0.5rem 0;
   list-style: none;
 `;
 
@@ -184,13 +180,11 @@ export const SStackItem = styled.span`
 //* 공통
 
 export const SContent = styled.div`
-  /* border:1px solid black; */
   display:flex;
   padding-bottom: 5rem;
 `;
 
 export const SPeriodSection = styled.div`
-  /* border:1px solid black; */
   width: 45%;
   h3 {
     font-size:1.35rem;
@@ -200,7 +194,6 @@ export const SPeriodSection = styled.div`
 
 
 export const SProjectInfoSection = styled.div`
-  /* border:1px solid black; */
    width: 65%;
    ul {
     margin: 0.5rem 0 0 1rem;
