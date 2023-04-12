@@ -8,19 +8,19 @@ const OtherExperiences = () => {
           <SOtherHeading>Blog</SOtherHeading>
           <SOtherPeriod>2022.10 - 현재</SOtherPeriod>
           <SParagraph>
-            <SAnchorColor href="https://mia-mia.tistory.com/">'오히려 좋아'</SAnchorColor> 
+            <SAnchorColor href="https://mia-mia.tistory.com/" target="_blank">'오히려 좋아'</SAnchorColor> 
             라는 블로그를 운영하며 학습하게 된 기술을 글로 작성해 공유합니다.
             </SParagraph> 
           <SParagraph>티스토리 블로그로 스킨을 편집하여 사용하고 있습니다.</SParagraph>
           <SParagraph>이전에는 
-            <SAnchor href="https://blog.naver.com/mia4956/222821182781">'Mia Mia'</SAnchor> 
+            <SAnchor href="https://blog.naver.com/mia4956/222821182781" target="_blank">'Mia Mia'</SAnchor> 
           라는 네이버 블로그를 운영하였습니다.</SParagraph>
       </SContentColumn>
       <SContentColumn>
         <SOtherHeading>YouTue</SOtherHeading>
         <SOtherPeriod>2021.9 - 현재</SOtherPeriod>
           <SParagraph>
-            <SAnchorColor href="https://www.youtube.com/@miatube3164/featured">'밍튜브 Mia Tube'</SAnchorColor> 
+            <SAnchorColor href="https://www.youtube.com/@miatube3164/featured" target="_blank">'밍튜브 Mia Tube'</SAnchorColor> 
           라는 이름의 유트브 채널을 운영하고 있습니다.</SParagraph> 
           <SParagraph>동영상 콘텐츠를 더 선호하는 소비자 비율은 빠르게 성장하며 소비자 경험이 중요한 프론트엔드 개발자는</SParagraph>
           <SParagraph>이 사실에서 자유로울 수 없다고 합니다.</SParagraph>
