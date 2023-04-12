@@ -1,4 +1,4 @@
-import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList, SIconItem, SIconSvg } from "../style/style";
+import { SIntroLayout,STitleSection,SNameTitle,SSubTitleSection,STextList,SIconList, SIconItem, SIconSvg, SAnchorColor } from "../style/style";
 
 const Intro = () => {
   return (
@@ -33,7 +33,7 @@ const Intro = () => {
           <STextList>
             <li>
               Email : 
-              <a href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer"> songmiaoh@gmail.com</a>
+              <SAnchorColor href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer">songmiaoh@gmail.com</SAnchorColor>
             </li>
             <li>Last updated : 2023.04.08</li>
           </STextList>

@@ -97,7 +97,7 @@ const sizeUp = keyframes`
 export const SIconItem = styled.li`
   border: 1px solid rgb(0 0 0 / 5%);
   border-radius: 50px;
-  margin-right: 5px;
+  margin-right: 10px;
   box-shadow: rgb(230 230 230) 3px 2px;
   position: relative;
   :last-child {
@@ -147,6 +147,7 @@ export const STextList = styled.ul`
 `;
 
 export const SAboutMeP = styled.p`
+  font-size: 1.1rem;
   line-height: 2rem;
 `;
 
@@ -159,7 +160,7 @@ export const SStackList = styled.li`
 `;
 
 export const SStackCategory = styled.span`
-  padding-right: 1rem;
+  padding-right: 1.5rem;
   font-size: 1.2rem;
   font-weight: 600;
 `;
@@ -167,7 +168,7 @@ export const SStackCategory = styled.span`
 export const SStackItem = styled.span`
   display: inline-flex;
   align-items: center;
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
   background-color: rgb(243 248 243 / 30%);
   border: 1px solid #07ba9c;
   padding: 5px 15px;
@@ -181,7 +182,13 @@ export const SStackItem = styled.span`
 
 export const SContent = styled.div`
   display:flex;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
+`;
+
+export const SContentColumn = styled.div`
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
 `;
 
 export const SPeriodSection = styled.div`
@@ -192,6 +199,28 @@ export const SPeriodSection = styled.div`
   }
 `;
 
+export const SAnchorColor = styled.a`
+  color : blue;
+  padding: 0 0.3rem 0 0;
+  :hover {
+      text-decoration: underline;
+  }
+`;
+
+export const SAnchor = styled.a`
+  color : blue;
+  padding: 0 0.3rem;
+  :hover {
+      text-decoration: underline;
+  }
+`;
+
+
+export const SParagraph = styled.p`
+  padding-bottom: 0.5rem;
+`;
+
+//* Project.jsx
 
 export const SProjectInfoSection = styled.div`
    width: 65%;
@@ -205,6 +234,20 @@ export const SProjectDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0 0 0.5rem;
+`;
+
+export const SProjectLinkSection = styled.div`
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0.5rem 0;
+  a {
+    padding: 0 0.5rem;
+    color : blue;
+    :hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const SProjectTag = styled.span`
@@ -221,12 +264,27 @@ export const SProjectTag = styled.span`
 export const SProjectList = styled.li`
 `;
 
+//* Eduaction.jsx
+
 export const SEducationInfoSection = styled.div`
    width: 65%;
     ul {
     margin: 0.5rem 0 0 1rem;
     line-height: 2.2rem;
    }
+`;
+
+export const SEduLinkSection = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  a {
+    padding: 0 0.5rem;
+    color : blue;
+    :hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const SEducationDescription = styled(SProjectDescription)`
@@ -240,4 +298,26 @@ export const SExperienceDescription = styled(SProjectDescription)`
 
 export const SExperienceInfoSection = styled.div`
   width: 65%;
+`;
+
+export const SOtherHeading = styled.h3`
+  font-size: 1.35rem;
+  padding-bottom: 1rem;
+`;
+
+export const SOtherPeriod = styled.span`
+  padding-bottom: 1rem;
+`;
+
+export const SFooterLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    margin: 3rem 0;
+  }
+  a {
+    color: blue;
+    padding: 0 0 0 0.1rem;
+  }
 `;

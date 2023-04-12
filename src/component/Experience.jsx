@@ -17,7 +17,7 @@ const Experience = () => {
       <SContent>
         <SPeriodSection>
           <h3>Orchid Hotel Singapore</h3>
-          <span>2018.08 - 2020.02</span>
+          <span>2018.08 - 2020.03</span>
         </SPeriodSection>
         <SExperienceInfoSection>
           <SExperienceDescription>Front Desk / GSO</SExperienceDescription>
