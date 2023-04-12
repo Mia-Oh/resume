@@ -15,8 +15,8 @@ const Intro = () => {
             </a>
           </SIconItem>
           <SIconItem>
-            <a target="_blank" href="https://www.instagram.com/mia_day_6/" rel="noreferrer">
-              <SIconSvg className="fab fa-instagram" title="Instagram link"></SIconSvg> 
+            <a target="_blank" href="https://mia-mia.tistory.com/" rel="noreferrer">
+              <SIconSvg className="fas fa-globe" title="Blog link"></SIconSvg>
             </a>
           </SIconItem>
           <SIconItem>
@@ -25,8 +25,8 @@ const Intro = () => {
             </a>
           </SIconItem>
           <SIconItem>
-            <a target="_blank" href="https://mia-mia.tistory.com/" rel="noreferrer">
-              <SIconSvg className="fas fa-globe" title="Blog link"></SIconSvg>
+            <a target="_blank" href="https://www.instagram.com/mia_day_6/" rel="noreferrer">
+              <SIconSvg className="fab fa-instagram" title="Instagram link"></SIconSvg> 
             </a>
           </SIconItem>
           </SIconList>
