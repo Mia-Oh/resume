@@ -22,7 +22,7 @@ const OtherExperiences = () => {
           <SParagraph>
             <SAnchorColor href="https://www.youtube.com/@miatube3164/featured" target="_blank">'밍튜브 Mia Tube'</SAnchorColor> 
           라는 이름의 유튜브 채널을 운영하고 있습니다.</SParagraph> 
-          <SParagraph>동영상 콘텐츠를 더 선호하는 소비자 비율은 빠르게 성장하며 소비자 경험이 중요한 프론트엔드 개발자는</SParagraph>
+          <SParagraph>동영상 콘텐츠를 더 선호하는 소비자 비율은 빠르게 성장하며 소비자 경험이 중요한 프런트엔드 개발자는</SParagraph>
           <SParagraph>이 사실에서 자유로울 수 없다고 합니다.</SParagraph>
           <SParagraph>직접 유튜브 채널을 운영해 보는 것은 좋은 경험과 취미 모두 되어 주고 있습니다.</SParagraph>
       </SContentColumn>
