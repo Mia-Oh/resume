@@ -78,7 +78,7 @@ export const STitleSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 66%;
+  width: 50%;
   @media only screen and (max-width: 735px) {
     align-items: center;
   }
@@ -90,7 +90,7 @@ export const SNameTitle = styled.h1`
 `;
 
 export const SSubTitleSection = styled.div`
-  width: 33%;
+  width: 50%;
   @media only screen and (max-width: 735px) {
     width: 100%;
     display: flex;
