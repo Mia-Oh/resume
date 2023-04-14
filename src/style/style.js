@@ -259,7 +259,7 @@ export const SPeriodSection = styled.div`
 `;
 
 export const SAnchorColor = styled.a`
-  color : blue;
+  color : #3a7bd5;
   padding: 0 0.3rem 0 0;
   :hover {
     text-decoration: underline;
@@ -267,7 +267,7 @@ export const SAnchorColor = styled.a`
 `;
 
 export const SAnchor = styled.a`
-  color : blue;
+  color : #3a7bd5;
   padding: 0 0.3rem;
   :hover {
     text-decoration: underline;
@@ -308,7 +308,7 @@ export const SProjectLinkSection = styled.div`
   margin: 1rem 0 0.5rem 0;
   a {
     padding: 0 0.5rem;
-    color : blue;
+    color : #3a7bd5;
     :hover {
       text-decoration: underline;
     }
@@ -318,6 +318,11 @@ export const SProjectLinkSection = styled.div`
     margin: 1rem 0;
     a {
       padding: 0px 2px;
+    }
+  }
+  @media only screen and (max-width: 370px) {
+    a {
+      letter-spacing: -0.5px;
     }
   }
 `;
@@ -355,7 +360,7 @@ export const SEduLinkSection = styled.div`
   margin: 1rem 0 1rem 0;
   a {
     padding: 0 0.5rem;
-    color : blue;
+    color : #3a7bd5;
     :hover {
       text-decoration: underline;
     }
@@ -367,6 +372,9 @@ export const SEducationDescription = styled(SProjectDescription)`
   @media only screen and (max-width: 735px) {
     width: 100vw;
     letter-spacing: -1px;
+  }
+  @media only screen and (max-width: 370px) {
+    letter-spacing: -1.5px;
   }
 `;
 
@@ -398,7 +406,7 @@ export const SFooterLayout = styled.div`
     margin: 3rem 0;
   }
   a {
-    color: blue;
+    color: #3a7bd5;
     padding: 0 0 0 0.1rem;
   }
 `;
