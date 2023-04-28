@@ -17,7 +17,7 @@ const OtherExperiences = () => {
           라는 네이버 블로그를 운영하였습니다.</SParagraph>
       </SContentColumn>
       <SContentColumn>
-        <SOtherHeading>YouTue</SOtherHeading>
+        <SOtherHeading>YouTube</SOtherHeading>
         <SOtherPeriod>2021.9 - 현재</SOtherPeriod>
           <SParagraph>
             <SAnchorColor href="https://www.youtube.com/@miatube3164/featured" target="_blank">'밍튜브 Mia Tube'</SAnchorColor> 
