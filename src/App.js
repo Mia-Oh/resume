@@ -6,6 +6,7 @@ import Intro from "./component/Intro"
 import OtherExperiences from "./component/OtherExperiences";
 import Projects from "./component/Projects";
 import Stacks from "./component/Stacks";
+import Certificates from "./component/Certificates";
 
 import { GlobalStyle, SLayout } from "./style/style";
 
@@ -21,6 +22,7 @@ const App = () => {
         <Projects />
         <Education />
         <Experience />
+        <Certificates />
         <OtherExperiences />
         <Footer />
       </SLayout>
