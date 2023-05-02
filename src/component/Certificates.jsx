@@ -28,7 +28,7 @@ const Certificates = () => {
             <span>2015.06</span>
           </SPeriodSection>
           <SExperienceInfoSection>
-            <SExperienceDescription>ERP 회게 정보관리사 2급</SExperienceDescription>
+            <SExperienceDescription>ERP 회계 정보관리사 2급</SExperienceDescription>
             <p>한국생산성본부</p>
           </SExperienceInfoSection>
         </SContent>
