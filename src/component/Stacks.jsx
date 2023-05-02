@@ -8,7 +8,7 @@ const Stacks = () => {
       <ul>
         <SStackList>
           <SStackCategory>프로그래밍 언어</SStackCategory>
-          <SStackItem>Javascript</SStackItem>
+          <SStackItem>JavaScript</SStackItem>
           <SStackItem>HTML</SStackItem>
           <SStackItem>CSS</SStackItem>
         </SStackList>
