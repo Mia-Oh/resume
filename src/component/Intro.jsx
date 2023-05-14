@@ -25,7 +25,7 @@ const Intro = () => {
             </a>
           </SIconItem>
           <SIconItem>
-            <a target="_blank" href="https://www.instagram.com/mia_day_6/" rel="noreferrer">
+            <a target="_blank" href="https://www.instagram.com/ohmydays_mia/" rel="noreferrer">
               <SIconSvg className="fab fa-instagram" title="Instagram link"></SIconSvg> 
             </a>
           </SIconItem>
@@ -35,7 +35,8 @@ const Intro = () => {
               Email : 
               <SAnchor href="mailto:songmiaoh@gmail.com" target="_blank" rel="noreferrer">songmiaoh@gmail.com</SAnchor>
             </li>
-            <li>Last updated : 2023.04.08</li>
+            <li>Mobile : 010 - 2170 - 4109</li>
+            {/* <li>Last updated : 2023.05.04</li> */}
           </STextList>
       </SSubTitleSection>
     </SIntroLayout>

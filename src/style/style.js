@@ -234,7 +234,7 @@ export const SStackItem = styled.span`
 
 export const SContent = styled.div`
   display:flex;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   @media only screen and (max-width: 735px) {
     flex-direction: column;
   }
@@ -306,6 +306,7 @@ export const SProjectLinkSection = styled.div`
   display: flex;
   align-items: center;
   margin: 1rem 0 0.5rem 0;
+  letter-spacing: -1px;
   a {
     padding: 0 0.5rem;
     color : #3a7bd5;
